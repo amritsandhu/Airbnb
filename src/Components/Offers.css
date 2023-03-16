@@ -1,0 +1,34 @@
+.offers {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-left: none;
+  border-right: none;
+}
+.placeOffers {
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.lists-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listOne {
+  display: inline-block;
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.listTwo {
+  display: inline-block;
+  margin: 0;
+  margin-left: 30px;
+  list-style-type: none;
+}
+.listOne,
+li {
+  padding-bottom: 10px;
+}

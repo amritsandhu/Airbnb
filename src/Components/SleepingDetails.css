@@ -1,0 +1,22 @@
+.sleepMessage {
+  font-size: 20px;
+  border-style: solid;
+  border-color: gainsboro;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  padding-top: 30px;
+  padding-left: 10px;
+
+  padding-right: 250px;
+}
+.bedIcon {
+  font-size: 30px;
+}
+.textOne {
+  font-size: 18px;
+}
+.textTwo {
+  font-size: 18px;
+
+  margin-right: -250px;
+}

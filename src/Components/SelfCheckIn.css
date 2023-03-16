@@ -1,0 +1,14 @@
+.checkIn {
+  padding-top: 20px;
+  border-style: solid;
+  border-color: gainsboro;
+  padding-bottom: 20px;
+  border-left: none;
+  border-right: none;
+}
+.checkInIcon {
+  padding-right: 20px;
+}
+.message {
+  padding-left: 35px;
+}

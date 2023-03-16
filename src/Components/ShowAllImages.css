@@ -1,0 +1,30 @@
+.allPics {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.goBack {
+  background-color: white;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  width: 60%;
+  margin-left: 19%;
+}

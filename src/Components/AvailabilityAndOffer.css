@@ -1,0 +1,11 @@
+.availability {
+  padding-top: 20px;
+  border-style: solid;
+  border-color: gainsboro;
+  padding-bottom: 20px;
+  border-left: none;
+  border-right: none;
+}
+.showMore {
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+@tailwind components;
+@tailwind utilities;
+
+.sliderContainer {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.allSliders {
+  margin-right: 30px;
+}
+.goBackArrow {
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: white;
+}
+.goBackArrow:hover {
+  background-color: gray;
+}

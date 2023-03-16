@@ -1,0 +1,20 @@
+.amount {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+.starRating {
+  margin-top: 8px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+}
+.firstReview {
+  text-decoration: underline;
+}

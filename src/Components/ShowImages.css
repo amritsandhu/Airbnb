@@ -1,0 +1,45 @@
+.parent-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2px;
+  align-items: stretch;
+
+  width: 99%;
+  margin-left: 35px;
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mycontainer1,
+.mycontainer2,
+.mycontainer3,
+.mycontainer4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 0px;
+}
+.first-container img {
+  width: 100%;
+  height: 98.5%;
+  object-fit: contain;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 95%;
+  height: 100%;
+
+  gap: 3px;
+}
+
+.hiddenPortal {
+  visibility: hidden;
+}

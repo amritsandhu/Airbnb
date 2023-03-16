@@ -1,0 +1,50 @@
+.checkInOut {
+  display: inline-block;
+
+  padding-bottom: 15px;
+
+  width: 100%;
+  border-style: hidden;
+}
+.first,
+.second {
+  display: inline-block;
+  height: 40px;
+
+  padding-top: 20px;
+  margin-right: 8px;
+
+  width: 47.5%;
+}
+@media (max-width: 1781px) {
+  .first {
+    width: 46%;
+  }
+
+  .second {
+    width: 46%;
+  }
+}
+
+.first ::placeholder {
+  font-size: 13px;
+  font-weight: bold;
+}
+.second ::placeholder {
+  font-size: 13px;
+  font-weight: bold;
+}
+.numberOne {
+  height: 50px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #6f48eb;
+  width: 100%;
+}
+.numberSecond {
+  height: 50px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #6f48eb;
+  width: 100%;
+}

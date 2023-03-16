@@ -1,0 +1,56 @@
+.guestDropdownContainer {
+  position: relative;
+}
+
+.dropDown {
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+  border-style: solid;
+  border-color: #6f48eb;
+  padding-top: 20px;
+  width: 100%;
+  padding-bottom: 15px;
+  height: 50%;
+}
+
+.label {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.count {
+  margin: 0 10px;
+  width: 20px;
+  text-align: center;
+}
+.options {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.ourKey {
+  padding-bottom: 20px;
+
+  font-size: 16px;
+}
+.plus {
+  border-radius: 12px;
+  border-style: hidden;
+  font-size: 15px;
+}
+.minus {
+  border-radius: 12px;
+  border-style: hidden;
+  font-size: 15px;
+}
+
+.buttonOne {
+  margin-left: 10%;
+  padding-right: 20px;
+}
+.buttonTwo {
+  margin-left: 10%;
+}
+.selectedOption {
+  font-size: 16px;
+}

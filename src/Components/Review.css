@@ -1,0 +1,70 @@
+.ourReview {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.reviewContainers {
+  border-style: solid;
+  padding-bottom: 30px;
+  border-left: none;
+  border-right: none;
+  border-color: gainsboro;
+
+  margin-left: 3%;
+}
+.reviewContainerOne {
+  display: inline-block;
+  width: 45%;
+  font-size: 20px;
+}
+
+.reviewContainerTwo {
+  display: inline-block;
+  width: 45%;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.reviewOne,
+.reviewTwo {
+  font-size: 18px;
+}
+
+.reviewButton {
+  margin-right: 80%;
+  border-radius: 12px;
+  text-decoration: underline;
+
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-left: 3%;
+  width: 300px;
+  cursor: pointer;
+}
+@media (max-width: 849px) {
+  .reviewButton {
+    width: 200px;
+  }
+}
+
+.ourForm {
+  padding-bottom: 20px;
+  margin-left: 3%;
+}
+.reviews {
+  width: 50%;
+}
+
+.reviews-formOne {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+  height: 30px;
+}

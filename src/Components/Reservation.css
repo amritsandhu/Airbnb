@@ -1,0 +1,33 @@
+.square {
+  /* display: flex;
+  width: 450px;
+  height: 250px;
+  background-color: aliceblue;
+  margin-left: 650px;
+  margin-top: 0;
+  margin-bottom: 50px; */
+  /* border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0/12%) 0px 6px 16px; */
+  position: sticky;
+  top: var(--navigation-bar-offset, 80px);
+  z-index: 1;
+  width: 100%;
+  display: inline-block;
+  padding-right: 1px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.reviews {
+  display: inline;
+  font-size: 15px;
+}
+
+.calendar {
+  padding-bottom: 20px;
+}
