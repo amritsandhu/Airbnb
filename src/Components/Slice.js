@@ -10,6 +10,7 @@ import BookingInfo from "./BookingInfo";
 import AvailabilityAndOffer from "./AvailabilityAndOffer";
 import SleepingDetails from "./SleepingDetails";
 import AmountPerNight from "./AmountPerNight";
+import FetchReviews from "./FetchReviews";
 
 export default function Slice() {
   const handleAvailabiltyClick = () => {
@@ -63,7 +64,8 @@ export default function Slice() {
           </div>
         </div>
       </div>
-      <Reviews />
+
+      <FetchReviews />
     </div>
   );
 }

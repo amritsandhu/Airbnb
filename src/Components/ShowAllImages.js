@@ -1,22 +1,11 @@
 import "./ShowAllImages.css";
-// import image1 from "../Images2/img1.webp";
-// import image2 from "../Images2/img2.webp";
-// import image3 from "../Images2/img3.webp";
-// import image4 from "../Images2/img4.webp";
-// import image5 from "../Images2/img5.webp";
 import ImageSlider from "./ImageSlider";
 import { useState } from "react";
 import { AiOutlineLeft } from "react-icons/ai";
+import image1 from "../Images2/img1.webp";
 
-const images = [
-  { src: require("../Images2/img1.webp"), className: "firstPic" },
-  { src: require("../Images2/img2.webp"), className: "picTwo" },
-  { src: require("../Images2/img3.webp"), className: "picThree" },
-  { src: require("../Images2/img4.webp"), className: "picFour" },
-  { src: require("../Images2/img5.webp"), className: "picFive" },
-];
-
-const ShowAllImages = ({ open, handleGoBack }) => {
+const ShowAllImages = ({ images, open, handleGoBack }) => {
+  // Add images prop
   const [openModalSlider, setOpenModalSlider] = useState(false);
 
   const handleSlider = () => {
@@ -38,16 +27,34 @@ const ShowAllImages = ({ open, handleGoBack }) => {
       <div className="goBack" onClick={handleCloseModal}>
         <AiOutlineLeft />
       </div>
-      {images.map((image, index) => (
-        <div
-          className={`container${index + 1}`}
-          onClick={handleSlider}
-          key={index}
-        >
-          <img className={image.className} src={image.src} alt="" />
-        </div>
-      ))}
+      {images.length > 0 && (
+        <>
+          <img src={image1} alt="" onClick={handleSlider} />
+
+          <img
+            src={images[3].urls.small}
+            alt={images[3].alt_description}
+            onClick={handleSlider}
+          />
+          <img
+            src={images[1].urls.small}
+            alt={images[1].alt_description}
+            onClick={handleSlider}
+          />
+          <img
+            src={images[3].urls.small}
+            alt={images[3].alt_description}
+            onClick={handleSlider}
+          />
+          <img
+            src={images[1].urls.small}
+            alt={images[1].alt_description}
+            onClick={handleSlider}
+          />
+        </>
+      )}
       <ImageSlider
+        images={images}
         openTwo={openModalSlider}
         handleCloseSlider={handleCloseSlider}
       />

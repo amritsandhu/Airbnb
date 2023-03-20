@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { RxDotFilled } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
+
 import image1 from "../Images2/img1.webp";
 import image2 from "../Images2/img2.webp";
 import image3 from "../Images2/img3.webp";
@@ -10,6 +11,11 @@ import image4 from "../Images2/img4.webp";
 import image5 from "../Images2/img5.webp";
 
 function ImageSlider({ openTwo, handleCloseSlider }) {
+  // const image2 = <img src={images[2].urls.small} alt={images[2].alt_description} />;
+  // const image3 = <img src={images[1].urls.small} alt={images[1].alt_description} />;
+  // const image4 = <img src={images[2].urls.small} alt={images[2].alt_description} />;
+  // const image5 = <img src={images[1].urls.small} alt={images[1].alt_description} />;
+
   const slides = [image1, image2, image3, image4, image5];
 
   const [currentIndex, setCurrentIndex] = useState(0);
